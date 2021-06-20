@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php
-    echo "<h1>Welcome!</h2>";
+    $name = "PHP Store";
+    $credit = 1000;
+
+    echo "<h1>Welcome ro ". $name."</h1>";
+    echo "<h2> You have $".$credit."</h2>";
     ?>
 </body>
 </html>
